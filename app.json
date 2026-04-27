@@ -20,7 +20,8 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.teenotes"
+      "package": "com.teenotes",
+      "versionCode": 3
     },
     "web": {
       "output": "static",
