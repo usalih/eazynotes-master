@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cozynotes",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +29,7 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router",
@@ -49,8 +53,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "8e24ea24-b6bf-4e0e-a5b3-de553457b572"
+        "projectId": "abc20d79-8183-4755-a100-a72565fc65a8"
       }
-    }
+    },
+    "owner": "devpappy"
   }
 }
